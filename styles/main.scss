@@ -1,4 +1,13 @@
+@import './base/fonts';
+
 p {
-    color: black;
-    display: block;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3222;
+  color: #45d5cf;
+}
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
 }
