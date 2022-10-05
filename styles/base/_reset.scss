@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
-  box-sizing: border-box;
 }
 
 html {
@@ -29,8 +29,8 @@ textarea {
   border: 0;
 
   &:focus {
-    box-shadow: none;
     outline: none;
+    box-shadow: none;
   }
 }
 
