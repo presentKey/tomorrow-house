@@ -4,10 +4,9 @@
     "stylelint-config-standard",
     "stylelint-config-prettier-scss"
   ],
-  "plugins": "stylelint-scss",
+  "plugins": ["stylelint-scss"],
   "rules": {
     "alpha-value-notation": "number",
-    "at-rule-empty-line-before": null,
     "at-rule-name-case": "lower",
     "at-rule-no-unknown": null,
     "at-rule-semicolon-newline-after": [
@@ -23,12 +22,6 @@
       }
     ],
     "block-closing-brace-newline-after": [
-      "always-multi-line",
-      {
-        "severity": "warning"
-      }
-    ],
-    "block-closing-brace-newline-before": [
       "always-multi-line",
       {
         "severity": "warning"
@@ -79,12 +72,6 @@
         "severity": "warning"
       }
     ],
-    "indentation": [
-      2,
-      {
-        "severity": "warning"
-      }
-    ],
     "length-zero-no-unit": [
       true,
       {
@@ -118,6 +105,7 @@
     ],
     "no-descending-specificity": null,
     "no-duplicate-at-import-rules": true,
+    "no-duplicate-selectors": null,
     "no-eol-whitespace": true,
     "no-extra-semicolons": true,
     "number-leading-zero": [
@@ -128,20 +116,9 @@
     ],
     "number-no-trailing-zeros": true,
     "no-unknown-animations": true,
-    "no-missing-end-of-source-newline": [
-      true,
-      {
-        "severity": "warning"
-      }
-    ],
+    "no-missing-end-of-source-newline": null,
     "property-no-unknown": true,
-    "rule-empty-line-before": [
-      "always-multi-line",
-      {
-        "except": ["after-single-line-comment", "first-nested"],
-        "severity": "warning"
-      }
-    ],
+    "rule-empty-line-before": null,
     "selector-attribute-quotes": [
       "always",
       {
