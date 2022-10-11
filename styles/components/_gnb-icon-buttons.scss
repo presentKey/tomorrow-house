@@ -18,6 +18,13 @@
     }
   }
 
+  &.is-search {
+    i {
+      position: relative;
+      top: 2px;
+    }
+  }
+
   &.is-cart {
     i {
       position: relative;
